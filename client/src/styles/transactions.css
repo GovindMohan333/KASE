@@ -1,0 +1,73 @@
+/* Filter buttons */
+.filter-btn {
+  padding: 8px 22px;
+  border-radius: 20px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  background: #f3f4f6;
+}
+
+.filter-btn.active {
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  color: white;
+  border: none;
+}
+
+/* Transaction item card */
+.txn-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+
+/* Icon circle */
+.txn-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Colors */
+.txn-green {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.txn-red {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.txn-blue {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+/* Amount text */
+.txn-amount-green {
+  color: #16a34a;
+}
+
+.txn-amount-red {
+  color: #dc2626;
+}
+
+.txn-amount-blue {
+  color: #2563eb;
+}

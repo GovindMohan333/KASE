@@ -1,0 +1,70 @@
+/* Gradient balance card */
+.balance-card {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 40%, #7c3aed 100%);
+  border-radius: 28px;
+  padding: 32px;
+  color: white;
+  box-shadow: 0px 12px 40px rgba(82, 67, 194, 0.3);
+  position: relative;
+}
+
+/* Add money button inside gradient card */
+.balance-btn {
+  background: white;
+  color: #4f46e5;
+  border-radius: 18px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: none;
+}
+
+.balance-btn:hover {
+  background: #eef2ff;
+}
+
+/* Quick action card */
+.action-card {
+  background: white;
+  border-radius: 20px;
+  padding: 28px 20px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Quick action icon */
+.action-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: white;
+}
+
+/* Colors for icons */
+.icon-blue {
+  background: #2563eb;
+}
+
+.icon-purple {
+  background: #7c3aed;
+}
+
+.icon-green {
+  background: #0ea5e9;
+}
+
+body {
+  background: #f7f7ff;
+}
